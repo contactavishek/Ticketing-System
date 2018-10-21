@@ -21,11 +21,11 @@ const Ticket = new Schema({
     },
     severity: {
         type: String,
-        default: 'low'
+        default: 'Low'
     },
     status: {
         type: String,
-        default: 'open'
+        default: 'Open'
     }
 });
 

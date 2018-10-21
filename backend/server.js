@@ -57,7 +57,7 @@ router.route('/tickets/update/:id').post((req, res) => {
             ticket.raisedby = req.body.raisedby;
             ticket.responsible = req.body.responsible;
             ticket.description = req.body.description;
-            ticket.severity = req.body.status;
+            ticket.severity = req.body.severity;
             ticket.status = req.body.status;
 
             ticket.save().then(ticket => {
